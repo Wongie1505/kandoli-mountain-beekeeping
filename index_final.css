@@ -594,6 +594,18 @@ a:hover {
 
 
 @media screen and (max-width: 768px) {
+    /* Popup sections*/
+    .popup-overlay {
+        align-items: flex-start; /* Start from top on mobile */
+        padding: 1rem;
+    }
+    
+    .popup-box {
+        margin-top: 2rem; /* Space from top on mobile */
+        padding: 1.5rem;
+    }
+    
+    
     .home{
         background-position:80%;
     }
